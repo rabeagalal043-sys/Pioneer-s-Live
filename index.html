@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Pioneer's Live Streaming — تسجيل الدخول</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="loading-veil" id="loadingVeil">
+    <div class="spinner"></div>
+    <p>جاري تحميل بيانات المنصة…</p>
+  </div>
+
+  <div class="login-screen">
+    <div class="radar" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+
+    <form class="login-card" id="loginForm" autocomplete="off">
+      <div class="brand-row">
+        <span class="rec-dot" aria-hidden="true"></span>
+        <span class="brand-eyebrow">ON AIR · PIONEER UPLINK</span>
+      </div>
+      <h1 class="brand-title">Pioneer's <span>Live</span> Streaming</h1>
+      <p class="brand-sub">أدخل رقم موبايلك المسجل على المنصة عشان تدخل قاعة البث</p>
+
+      <label class="field-label" for="phoneInput">رقم الموبايل</label>
+      <div class="phone-input-wrap">
+        <span class="code-chip mono">EG</span>
+        <input
+          type="tel"
+          id="phoneInput"
+          name="phone"
+          inputmode="numeric"
+          placeholder="01xxxxxxxxx"
+          maxlength="11"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="error-msg mono" id="errorMsg"></div>
+
+      <button type="submit" class="submit-btn" id="submitBtn">دخول قاعة البث</button>
+
+      <div class="login-footer">PIONEER'S LIVE STREAMING © <span id="yearNow"></span></div>
+    </form>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
