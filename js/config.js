@@ -16,5 +16,5 @@ window.LIVE_CONFIG = {
   sessionTitle: "المحاضرة المباشرة",
 
   // لينك اليوتيوب — غيّره هنا كل مرة
-  youtubeUrl: "https://youtu.be/QUa3pLnOZfc?si=2V7dLASLCl9ktzhY"
+  youtubeUrl: "https://youtube.com/live/SpogwmFwE_I?feature=share"
 };
